@@ -25,6 +25,7 @@ if [[ $1 == "-f" || $1 == "--filename" ]] ; then
         for i in {1..3} ; do
             jwt_part=$(echo $file_content | cut -d '.' -f$i | base64 -d)
             echo "Champs n°$i : $jwt_part"
+            exit 0
         done
 
     else
@@ -36,6 +37,7 @@ else
     for i in {1..3} ; do
         jwt_part=$(echo "$1" | cut -d '.' -f$i | base64 -d)
         echo "Champs n°$i : $jwt_part"
+        exit 0
     done
 fi
 ```
