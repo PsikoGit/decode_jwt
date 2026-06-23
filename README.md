@@ -1,4 +1,4 @@
-J'ai développé un script bash permettant de décoder les token JWT, des outils beaucoup plus robustes existent comme le site [https://www.jwt.io/] mais j'ai tenu à faire ce code pour m'entraîner en scripting bash :
+J'ai développé un script bash permettant de décoder les token JWT, des outils beaucoup plus robustes existent comme le site https://www.jwt.io/ mais j'ai tenu à faire ce code pour m'entraîner en scripting bash :
 
 ```bash
 #!/bin/bash
